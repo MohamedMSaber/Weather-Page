@@ -1,0 +1,119 @@
+body
+{
+    background-image: url(../Images/sorasak-KxCJXXGsv9I-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.navBg
+{
+    background-color: #1E202B;
+}
+.homeLink
+{
+    margin: 0px 5px;
+    padding: 2px 50px;
+    border: 2px solid #18BFDF;
+    border-radius: 30px;
+    color: #18BFDF;
+    
+}
+.links
+{
+    margin: 0px 5px;
+    padding: 2px 50px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    
+}
+.links:hover
+{
+    border: 2px solid #18BFDF;
+}
+.search
+{
+    width: 100%;
+    background-color: #1E202B;
+    
+}
+.search:focus
+{
+    outline: none;
+    color: white;
+}
+.btn 
+{
+    background-color: #18BFDF;
+    border: 0;
+    color: white;
+    top: 50%;
+    right: 2%;
+    width: 150px;
+    transform: translate(0,-50%);
+    font-size: 1.05rem;
+} 
+.btn:hover
+{
+    background-color: #2D303D;
+}
+.temp-card
+{
+    width: 32%;
+    background-color: #1E202B;
+    color: white;
+    border-radius: 8px;
+    height: 300px;
+    
+}
+.temp-card .day-date
+{
+    background-color: #2D303D;
+    
+}
+.temp-card .next-day
+{
+    background-color: #06A6DA;
+}
+
+.footer
+{
+    background-color: #1E202B
+}
+.Email input
+{
+    background-color: #2D303D;
+}
+.Email button
+{
+    top: 50%;
+    width: 10px;
+    transform: translate(0,-50%);
+}
+.auther
+{
+    color: #06A6DA;
+}
+i:hover
+{
+    color: #06A6DA;
+    transition: 0.5s;
+}
+
+@media screen and (min-width: 480px) {
+    .contact ,.Email
+    {
+        display: flex;
+        justify-content: center;
+        text-align-last:center ;
+        
+    }
+    .Email p 
+    {
+        text-align-last:center ;
+    }
+    .Email button 
+    {
+        width: 50%;
+        
+    }
+}
